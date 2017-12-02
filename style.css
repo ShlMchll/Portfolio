@@ -1,0 +1,222 @@
+body {
+      background-image: url(bg.jpeg);
+	  background-attachment:fixed;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+      position:relative;
+	  overflow-y:auto;
+	  margin-top: 0;
+      margin-left: 0;
+      
+	  text-align: center;
+	  color: #000;
+	  font-family: sans-serif;
+}
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+	background: rgba(5, 5, 20, 0.5);
+	font-family: Helvetica;
+    font-size: 16px !important;
+    letter-spacing: 5px 5px 5px 5px;
+    width: 100%
+}
+
+
+
+
+
+
+.nav-menu ul li {
+    float: center;
+    display: block;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 150%;
+    display: inline-block;
+    padding: 5px;
+}
+.nav-menu ul li a, .menu ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+.nav-menu ul .list:hover {
+    opacity: .8;
+    transition: .5s ease;
+    background-color: black;
+	border-radius: 10px;
+}
+
+.home {
+    margin-top: 150px;
+    color: black;
+    font-size: 50px;
+}
+ 
+.aboutme {
+	width: 600px;
+	height: 600px;
+    background-color: lightblue;
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+    border-radius: 10px;
+	color: black;
+	font-family: 'Century Gothic',sans-serif; 
+}
+.box-img {
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+}
+.aboutme h2 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.aboutme h5 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;	
+}
+.aboutme p{
+	text-align: justify;
+}
+.gallery{
+	width: 600px;
+	height: 300px;
+	background-color: lightblue;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+	font-family: 'Century Gothic',sans-serif; 
+	border-radius: 15px;
+}
+
+.gallery .image {
+	width: 30%;
+	margin: 1%;
+	float: left;
+}
+
+.image img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.image img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+.contact-area {
+    width: 700px;
+    height: 800px;
+    background-color: lightblue;
+    padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10%;
+	font-family: 'Century Gothic',sans-serif; 
+	border-radius: 15px;
+
+}
+
+.contact-area h2 {
+    padding: 0;
+    text-align: center;
+    font-size: 55px;
+    color: black;
+}
+
+.contact-area form {
+    padding-top: 25px;
+    font-size: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: #9fb0c1;; 
+    font-size: 25px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    background: #C7D8E9;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.one-half {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    float: left;
+}
+.one-half h3 {
+    font-size: 40px;
+    color: cornflowerblue;
+    padding: 45px 0 25px 0;
+}
+.one-half p {
+    font-size: 25px;
+    color: darkblue;
+    text-align: center;
+}
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: darkblue;
+}
+
+.social a li i:hover {
+    color: white;
+}
